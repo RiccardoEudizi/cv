@@ -25,9 +25,9 @@ export const RESUME_DATA = {
   location: "Rome, Italy, CET",
   locationLink: "https://www.google.com/maps/place/Rome",
   about:
-    "Full Stack Engineer focused on building products with extra attention to details",
+    "Full Stack Engineer focused on building products that have a useful context and help users doing complex tasks in a simple way",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple features from 0 to 1. Currently, I work mostly with JavaScript, Angular, Node.js, Java, and SQL. I have over 3 years of experience in working with large projects.",
+    "As a Full Stack Engineer, I have successfully taken multiple features from 0 to 1. Currently, I work mostly with JavaScript, Angular, React, Node.js, Java, and SQL. I have over 3 years of experience in working with large and small projects.",
   avatarUrl: "/DKReFJH__400x400.jpg",
   personalWebsiteUrl: "https://riccardoeudizi.vercel.app",
   contact: {
@@ -54,7 +54,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "I.I.S G. Marconi",
-      degree: "high school degree in IT",
+      degree: "High school degree in IT",
       start: "2015",
       end: "2020",
     },
@@ -65,7 +65,6 @@ export const RESUME_DATA = {
       link: "https://sogei.it",
       badges: ["Rome"],
       title: "Full Stack Developer",
-      logo: ParabolLogo,
       start: "2021",
       end: "current",
       description:
@@ -73,10 +72,9 @@ export const RESUME_DATA = {
     },
     {
       company: "BSA S.R.L",
-      link: "",
+      link: "https://bsa-assicurazioni.it/",
       badges: ["Rome"],
       title: "Full Stack Developer",
-      logo: ClevertechLogo,
       start: "2021",
       end: "2021",
       description:
@@ -87,7 +85,6 @@ export const RESUME_DATA = {
       link: "https://www.infos.it/",
       badges: ["Rome"],
       title: "Full-Stack Developer .NET",
-      logo: JojoMobileLogo,
       start: "2020",
       end: "2020",
       description:
@@ -109,16 +106,10 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "Life Percentage",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Astro",
-        "Vite",
-        "SolidJs",
-        
-      ],
-      description: "App that calculate yor life percentage  based on WHO(World Heakth Organization) data, it gets your life expectancy based on your age and country, and then gets the percentage. (Just for europe for now)",
-      
+      techStack: ["Side Project", "TypeScript", "Astro", "Vite", "SolidJs"],
+      description:
+        "App that calculate yor life percentage  based on WHO(World Health Organization) data, it gets your life expectancy based on your age and country, and then gets the percentage. (Just for europe for now)",
+
       link: {
         label: "life-estimate.com",
         href: "https://life-estimate.vercel.app/",
@@ -164,6 +155,5 @@ export const RESUME_DATA = {
         href: "https://qwik-app-two.vercel.app/",
       },
     },
-   
   ],
 } as const;
