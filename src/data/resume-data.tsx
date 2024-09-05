@@ -15,7 +15,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://riccardoeudizi.vercel.app",
   contact: {
     email: "rik.eudizi@gmail.com",
-    tel: "+393703634743",
+    tel: "",
     social: [
       {
         name: "GitHub",
@@ -75,57 +75,45 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "JavaScript",
+    // "JavaScript",
     "TypeScript",
     "Java",
     "C#",
     "Go",
+    "SQL",
     "React/Next.js",
     "Astro",
     "Solid JS",
     "Node.js",
-    "SQL",
+    ,
   ],
   projects: [
     {
-      title: "Life Percentage",
-      techStack: ["Side Project", "TypeScript", "Astro", "Vite", "SolidJs"],
-      description:
-        "App that calculate yor life percentage  based on WHO(World Health Organization) data, it gets your life expectancy based on your age and country, and then gets the percentage. (Just for europe for now)",
-
+      title: "Ssetto",
+      techStack: ["Package", "TypeScript", "SolidJs"],
+      description: "An unstyled drawer with a sheet animation on top of it",
       link: {
-        label: "life-estimate.com",
-        href: "https://life-estimate.vercel.app/",
+        label: "ssetto.com",
+        href: "https://ssetto.vercel.app/",
       },
     },
     {
-      title: "Code VisualX",
-      techStack: ["Side Project", "TypeScript", "Astro", "SolidJs"],
-      description:
-        "An app that create images of your code to use in tutorials, social media posts, etc.",
+      title: "Sonner-Solid",
+      techStack: ["Package", "TypeScript", "SolidJs"],
+      description: "An opinionated toast component for Solid Js",
       link: {
-        label: "code-visualX.com",
-        href: "https://code-visualx.vercel.app/",
+        label: "sonner-solid.com",
+        href: "https://sonner-solid.vercel.app/",
       },
     },
     {
       title: "Free News Project",
-      techStack: ["Side Project", "Astro", "SolidJS", "Playwright"],
+      techStack: ["Side Project", "Astro", "SolidJS", "Cheerio"],
       description:
-        "Web App that scrape the content of any online article and let you read it without  annoying ads ",
+        "Web App that scrape the content of any online article and let you read it without annoying ads",
       link: {
         label: "free-news-project.com",
         href: "https://free-news-project.vercel.app/",
-      },
-    },
-    {
-      title: "Intergalactic Radio",
-      techStack: ["Side Project", "Astro", "SolidJS"],
-      description:
-        "An example app to show usage of Supabase Realtime, users can set the URL to a YouTube Music track, other users can listen to the same track by having the link to the room",
-      link: {
-        label: "intergalacticradio.com",
-        href: "https://intergalactic-radio.vercel.app/landing",
       },
     },
     {
@@ -138,5 +126,35 @@ export const RESUME_DATA = {
         href: "https://qwik-app-two.vercel.app/",
       },
     },
+    {
+      title: "TextOS Weather",
+      techStack: ["Side Project", "SolidJS"],
+      description: "A simple weather app with ascii animations",
+      link: {
+        label: "textos-weather.com",
+        href: "https://text-os-weather.vercel.app/",
+      },
+    },
+    {
+      title: "Life Percentage",
+      techStack: ["Side Project", "TypeScript", "Astro", "Vite", "SolidJs"],
+      description:
+        "App that calculate yor life percentage  based on WHO(World Health Organization) data, it gets your life expectancy based on your age and country, and then gets the percentage. (Just for europe for now)",
+
+      link: {
+        label: "life-estimate.com",
+        href: "https://life-estimate.vercel.app/",
+      },
+    },
+    // {
+    //   title: "Intergalactic Radio",
+    //   techStack: ["Side Project", "Astro", "SolidJS"],
+    //   description:
+    //     "An example app to show usage of Supabase Realtime, users can set the URL to a YouTube Music track, other users can listen to the same track by having the link to the room",
+    //   link: {
+    //     label: "intergalacticradio.com",
+    //     href: "https://intergalactic-radio.vercel.app/landing",
+    //   },
+    // },
   ],
 } as const;
