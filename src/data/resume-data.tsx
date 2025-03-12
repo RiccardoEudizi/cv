@@ -118,12 +118,12 @@ export const RESUME_DATA = {
     },
     {
       title: "Steganography Project",
-      techStack: ["Side Project", "Qwik", "Go Fiber"],
+      techStack: ["Side Project", "React"],
       description:
-        "A project that I made to play with Go, using steganography, a technique used to encrypt messages into files. This app let you upload a photo and a message, and return the photo with the message encoded in it. It let you decode it as well. The back-end is written in Go using Go Fiber, the front-end is built with Qwik JS",
+        "Hide secret messages within images or decode messages from images that contain hidden data.",
       link: {
-        label: "stegano.com",
-        href: "https://qwik-app-two.vercel.app/",
+        label: "steganography-project.com",
+        href: "https://steganography-rouge.vercel.app/",
       },
     },
     {
