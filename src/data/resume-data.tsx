@@ -89,6 +89,15 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "open-docs",
+      techStack: ["Side Project", "NextJS", "AI SDK", "TailwindCSS", "Ollama"],
+      description: "AI-Powered documentation generation and repository analysis",
+      link: {
+        label: "open-docs.com",
+        href: "https://open-docs.vercel.app/",
+      }
+    },
+    {
       title: "Ssetto",
       techStack: ["Package", "TypeScript", "SolidJs"],
       description: "An unstyled drawer with a sheet animation on top of it",
@@ -115,6 +124,39 @@ export const RESUME_DATA = {
         label: "free-news-project.com",
         href: "https://free-news-project.vercel.app/",
       },
+    },
+    {
+      title: "AI News",
+      techStack: ["Side Project", "NextJS", "AI SDK", "TailwindCSS", "Cheerio"],
+      description:
+        "AI generated news and daily report",
+      link: {
+        label: "ai-news-terminal.com",
+        href: "https://ai-news-terminal.vercel.app/",
+      },
+
+    },
+    {
+      title: "Dotify",
+      techStack: ["Side Project", "NextJS", "Transformers js", "TailwindCSS"],
+      description:
+        "Transform your portraits into beautiful dot art, ascii art or dither, with AI-powered background removal",
+      link: {
+        label: "dotify.com",
+        href: "https://dotify-tau.vercel.app/",
+      }
+    },
+
+    {
+      title: "Cities",
+      techStack: ["Side Project", "SolidStart", "SolidJS", "TailwindCSS", "Overpass API"],
+      description:
+        "Discover the unique architecture and layout of cities worldwide through an interactive visualization tool.",
+
+      link: {
+        label: "cities.com",
+        href: "https://cities-omega.vercel.app/",
+      }
     },
     {
       title: "Steganography Project",
