@@ -177,17 +177,6 @@ export const RESUME_DATA = {
         href: "https://text-os-weather.vercel.app/",
       },
     },
-    {
-      title: "Life Percentage",
-      techStack: ["Side Project", "TypeScript", "Astro", "Vite", "SolidJs"],
-      description:
-        "App that calculate yor life percentage  based on WHO(World Health Organization) data, it gets your life expectancy based on your age and country, and then gets the percentage. (Just for europe for now)",
-
-      link: {
-        label: "life-estimate.com",
-        href: "https://life-estimate.vercel.app/",
-      },
-    },
     // {
     //   title: "Intergalactic Radio",
     //   techStack: ["Side Project", "Astro", "SolidJS"],
