@@ -10,8 +10,8 @@ export const RESUME_DATA = {
   about:
     "Full Stack Engineer focused on building products that have a useful context and help users doing complex tasks in a simple way",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple features from 0 to 1. Currently, I work mostly with JavaScript, Angular, React, Node.js, Java, and SQL. I have over 3 years of experience in working with large and small projects.",
-  avatarUrl: "/DKReFJH__400x400.jpg",
+    "As a Full Stack Engineer, I have successfully taken multiple features from 0 to 1. Currently, I work mostly with JavaScript, Angular, React, Node.js, Java, and SQL. I have over 5 years of experience in working with large and small projects.",
+  avatarUrl: "/profile.jpeg",
   personalWebsiteUrl: "https://riccardoeudizi.vercel.app",
   contact: {
     email: "rik.eudizi@gmail.com",
@@ -90,11 +90,20 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "open-docs",
-      techStack: ["Side Project", "NextJS", "AI SDK", "TailwindCSS", "Ollama"],
+      techStack: ["Side Project", "NextJS", "AI SDK", "TailwindCSS"],
       description: "AI-Powered documentation generation and repository analysis",
       link: {
         label: "open-docs.com",
         href: "https://open-docs.vercel.app/",
+      }
+    },
+    {
+      title: "PDF Summarizer",
+      techStack: ["Side Project", "Solidjs", "AI SDK", "TailwindCSS"],
+      description: "Summarize text PDFs into chapters or plain summaries with AI",
+      link: {
+        label: "pdf-summarize.com",
+        href: "https://pdf-summarize-inky.vercel.app/",
       }
     },
     {
